@@ -1,0 +1,20 @@
+//Reverse string Program..
+
+public class Assign {
+
+	public static void main(String[] args) {
+	String rev = "i am not a fool";
+	int abc = rev.length();
+	String result = "";
+for(int i=abc-1; i>=0;i--) {
+	result = result + rev.charAt(i);	
+}
+	System.out.println(result);
+	
+	StringBuffer res = new StringBuffer(rev);
+	System.out.println(res.reverse());
+	
+	
+	}
+	
+}
